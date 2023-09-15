@@ -81,4 +81,6 @@ class TestOne(BaseClass):
         # successTxt = self.driver.find_element(By.CSS_SELECTOR, "div[class*='alert-dismissible']").text
 
         assert 'Success' in successTxt
+        assert 'Suc' in successTxt #added by 2nd person working in GitDemo
+        assert 'ess' in successTxt #added by 2nd person working in GitDemo
 
