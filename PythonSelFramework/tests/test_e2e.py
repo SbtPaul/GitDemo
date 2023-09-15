@@ -84,3 +84,4 @@ class TestOne(BaseClass):
         assert 'Suc' in successTxt #added by 2nd person working in GitDemo
         assert 'ess' in successTxt #added by 2nd person working in GitDemo
         log.info("this is from GitX") #added parenthesis by GitX user
+        log.info("from GitDemo 0001")
