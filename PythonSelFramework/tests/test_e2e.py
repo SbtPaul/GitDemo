@@ -83,4 +83,4 @@ class TestOne(BaseClass):
         assert 'Success' in successTxt
         assert 'Suc' in successTxt #added by 2nd person working in GitDemo
         assert 'ess' in successTxt #added by 2nd person working in GitDemo
-
+        log.info"this is from GitX"
