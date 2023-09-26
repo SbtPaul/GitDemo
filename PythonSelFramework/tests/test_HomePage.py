@@ -38,6 +38,12 @@ class TestHomePage(BaseClass):
         # alertText = driver.find_element(By.CSS_SELECTOR, "[class*='alert-success']").text
 
         assert("Success" in alertText)
+        assert("Success" in alertText) # added by arch 001AAA
+        assert("Success" in alertText) # added by arch 001BBB
+
+
+
+
         self.driver.refresh()
 
 
