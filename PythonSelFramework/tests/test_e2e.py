@@ -90,3 +90,6 @@ class TestOne(BaseClass):
         log.info("added by architect 001...BBBB")
         log.info("added by architect 001...CCCC")
 
+        log.info("added by gitdemo as develop001")
+
+
